@@ -1,0 +1,35 @@
+ournal Viewer Application
+Overview
+This is a simple Journal Viewer application built using Python and Tkinter. The application allows users to:
+	•	Write journal entries with a timestamp.
+	•	Add an optional hashtag for categorization.
+	•	Assign a task status to each entry.
+	•	Save entries to a journal.txt file.
+Features
+	•	User Interface: A simple GUI to input journal entries.
+	•	Timestamps: Automatically adds the current date and time.
+	•	Task Status Dropdown: Options include Not Reviewed, Not a Task, Not Started, Planning, Execution, Completed, Hold.
+	•	Hashtags: Allows categorizing entries with an optional hashtag.
+	•	Save Entries: Stores journal entries in journal.txt for future reference.
+Requirements
+	•	Python 3.x
+	•	Tkinter (included with Python by default)
+How to Run
+	1	Ensure you have Python installed on your system.
+	2	Clone this repository or download the script.
+	3	Run the following command in the terminal: python journal_ui.py
+	4	The application window will open, allowing you to enter journal entries.
+File Structure
+Journal-Viewer/
+│── journal_ui.py       # Main application script
+│── journal.txt         # Stores journal entries (auto-generated)
+│── README.md           # Documentation
+Future Improvements
+	•	Add filtering options by date, task status, and hashtags.
+	•	Implement an entry editing and deletion feature.
+	•	Export journal entries to CSV or PDF.
+	•	Enhance UI with additional styling and user experience improvements.
+License
+This project is open-source and free to use.
+Author
+Developed as part of a personal ERP system project.
