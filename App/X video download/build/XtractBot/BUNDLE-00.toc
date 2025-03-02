@@ -1,0 +1,3 @@
+([('XtractBot',
+   '/Users/rajasimhakoppula/Documents/mfx/App/X video download/dist/XtractBot',
+   'EXECUTABLE')],)
